@@ -4,7 +4,7 @@ import requests
 
 
 class NginxStatus:
-    url = 'http://localhost:10080/nginx_status'
+    url = 'http://localhost/nginx_status'
     keys = ['active', 'accepts', 'handled', 'requests',
             'reading', 'writing', 'waiting']
 
